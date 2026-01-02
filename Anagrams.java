@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Anagrams{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter first name: ");
+        System.out.print("Enter first name: ")
         String str1=sc.next();
         System.out.print("Enter second name: ");
         String str2=sc.next();
