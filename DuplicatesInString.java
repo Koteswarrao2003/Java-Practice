@@ -5,7 +5,7 @@ public class DuplicatesInString{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter name: ");
         String str=sc.next();
-        char arr[]=str.toCharArray();
+        char arr[]=str.toCharArray()
      
 
         for(int i=0;i<arr.length;i++){
