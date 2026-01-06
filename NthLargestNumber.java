@@ -19,7 +19,7 @@ public class NthLargestNumber{
         int large=sc.nextInt();
 
 
-        if(large>arr.length){
+        if(large>arr.length || large<=0){
             System.out.println("Choose large element in the range of 1 to "+arr.length+" only");
         }else{
             System.out.print(large+" largest element is: ");
