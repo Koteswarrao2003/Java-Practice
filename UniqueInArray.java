@@ -11,7 +11,7 @@ public class UniqueInArray{
                 }
             }
 
-            if(flag)
+            if(!flag)
                 System.out.print(arr[i]+" ");
         }
     }
