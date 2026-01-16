@@ -10,13 +10,13 @@ public class GCD{
         int second=sc.nextInt();
 
         int min=(first<second)?first:second;
-        int temp=0;
+        int gcd=0;
 
         for(int i=1;i<=min;i++){
             if(first%i==0 && second%i==0){
-                temp=i;
+                gcd=i;
             }
         }
-        System.out.println("GCD: "+temp);
+        System.out.println("GCD: "+gcd);
     }
 }
