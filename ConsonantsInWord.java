@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ConsonantsInWord{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter a Word: ");
+        System.out.print("Enter any Word: ");
         String str=sc.next();
 
         char ch[]=str.toLowerCase().toCharArray();
