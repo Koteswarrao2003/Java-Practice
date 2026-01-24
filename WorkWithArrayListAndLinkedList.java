@@ -13,9 +13,9 @@ public class WorkWithArrayListAndLinkedList{
 
         List<String> linkedList=new LinkedList<>();
         linkedList.add("Elderberry");
-        linkedList.add("Fig");
+        linkedList.add("Banana");
         linkedList.add("Grape");
-        linkedList.add("Honeydew");
+        linkedList.add("Cherry");
 
         System.out.println("\nElements in LinkedList:");
         linkedList.forEach(System.out::println);
@@ -54,11 +54,9 @@ public class WorkWithArrayListAndLinkedList{
 
         System.out.println();
 
-        // Union of ArrayList and LinkedList
-        List<String> unionList=new ArrayList<>(arrayList);
-        unionList.addAll(linkedList);
-        System.out.println("Union of ArrayList and LinkedList:");
-        unionList.forEach(x-> System.out.println(x));
+        // Equality Check
+        boolean isEqual = arrayList.equals(linkedList);
+        System.out.println("Are ArrayList and LinkedList equal? " + isEqual);
 
-    }
+    }   
 }
