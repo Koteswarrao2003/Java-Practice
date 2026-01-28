@@ -52,6 +52,5 @@ public class WorkingWithVector{
         System.out.println("Clearing the vector");
         animals.clear();
         System.out.println("Is the vector empty after clearing? " + animals.isEmpty());
-
     }
 }
