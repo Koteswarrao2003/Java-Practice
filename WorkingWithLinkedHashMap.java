@@ -1,5 +1,4 @@
-
-import java.util.LinkedHashMap;
+import java.util.*;
 
 public class WorkingWithLinkedHashMap{
     public static void main(String[] args) {
@@ -43,6 +42,6 @@ public class WorkingWithLinkedHashMap{
         // Clearing the LinkedHashMap
         linkedHashMap.clear();
         System.out.println("LinkedHashMap size after clearing: " + linkedHashMap.size());
-        
+
     }
 }
