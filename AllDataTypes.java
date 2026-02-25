@@ -1,3 +1,19 @@
+/*
+ALL DATA TYPES IN JAVA
+
+This program shows different data types in Java.
+
+1) byte, short, int, long → used to store whole numbers.
+2) float, double → used to store decimal numbers.
+3) char → used to store a single character.
+4) boolean → used to store true or false value.
+5) String → used to store text.
+6) Array → used to store multiple values of same type.
+
+In this program, we declare all data types
+and print their values.
+*/
+
 public class AllDataTypes {
     public static void main(String[] args) {
 
