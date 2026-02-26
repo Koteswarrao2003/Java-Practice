@@ -1,3 +1,29 @@
+/*
+ANAGRAM PROGRAM
+
+This program checks whether two words are anagrams.
+
+Anagram means:
+Both words contain the same letters in different order.
+Example: "listen" and "silent"
+
+Program Logic:
+1) Take two words as input from the user.
+2) First check the length of both words.
+   - If lengths are different → Not anagrams.
+3) Convert both words to lowercase 
+   (so case does not affect comparison).
+4) Convert strings into character arrays.
+5) Sort both character arrays.
+6) Compare both sorted arrays using Arrays.equals().
+   - If equal → Both are anagrams.
+   - If not equal → Both are not anagrams.
+
+Important:
+Sorting helps to arrange letters in same order
+so comparison becomes easy.
+*/
+
 import java.util.Arrays;
 import java.util.Scanner;
 
