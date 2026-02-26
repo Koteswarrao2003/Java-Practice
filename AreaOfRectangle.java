@@ -1,3 +1,20 @@
+/*
+AREA OF RECTANGLE PROGRAM
+
+This program calculates the area of a rectangle.
+
+Formula:
+Area = Length × Width
+
+Program Steps:
+1) Take length and width as input from the user.
+2) Multiply length and width.
+3) Store the result in a variable called area.
+4) Print the area.
+
+We use double data type to allow decimal values.
+*/
+
 import java.util.Scanner;
 
 public class AreaOfRectangle{
