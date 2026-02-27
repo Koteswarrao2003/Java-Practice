@@ -1,3 +1,23 @@
+/*
+CIRCULAR PRIME PROGRAM
+
+A Circular Prime is a number where:
+The number and all its digit rotations are prime.
+
+Example:
+197 → 197, 971, 719
+All are prime numbers → So it is a Circular Prime.
+
+Program Logic:
+1) Take a number from user.
+2) First check if the number itself is prime.
+3) Convert number into String to rotate digits.
+4) Rotate digits one by one.
+5) Check each rotated number is prime.
+6) If all rotations are prime → Circular Prime.
+   Otherwise → Not Circular Prime.
+*/
+
 import java.util.*;
 public class CircularPrime{
     public static void main(String[] args) {
