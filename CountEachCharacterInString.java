@@ -1,3 +1,24 @@
+/*
+COUNT EACH CHARACTER IN A STRING
+
+This program counts how many times
+each character appears in a string.
+
+Program Logic:
+1) Take a string as input from user.
+2) Convert the string into a character array.
+3) Pick one character at a time.
+4) Compare it with remaining characters.
+5) If same character is found:
+   - Increase count
+   - Replace duplicate with '0' 
+     (to avoid counting again)
+6) Print character and its count.
+
+Note:
+'0' is used as a marker to skip
+already counted characters.
+*/
 
 import java.util.Scanner;
 
