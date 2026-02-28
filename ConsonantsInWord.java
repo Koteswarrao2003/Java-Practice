@@ -1,3 +1,21 @@
+/*
+COUNT CONSONANTS IN A WORD
+
+This program counts the number of consonants
+in a given word.
+
+Program Logic:
+1) Take a word as input from user.
+2) Convert the word to lowercase.
+3) Convert the string into a character array.
+4) Check each character:
+   - If it is not a vowel (a, e, i, o, u),
+     then it is counted as a consonant.
+5) Print the total number of consonants.
+
+Note:
+This program assumes input contains only alphabets.
+*/
 
 import java.util.Scanner;
 
