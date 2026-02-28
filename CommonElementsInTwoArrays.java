@@ -1,3 +1,21 @@
+/*
+COMMON ELEMENTS IN TWO ARRAYS
+
+This program finds common elements 
+between two integer arrays.
+
+Program Logic:
+1) Store elements of first array in a HashSet.
+2) Traverse the second array.
+3) For each element, check if it exists in the HashSet.
+4) If it exists → It is a common element.
+5) Print the common element and remove it 
+   (to avoid duplicate printing).
+
+HashSet is used because:
+- It stores unique elements.
+- Searching is fast (O(1) average time).
+*/
 
 import java.util.HashSet;
 
