@@ -1,3 +1,23 @@
+/*
+FIND DUPLICATE ELEMENTS IN ARRAY
+
+This program finds duplicate elements
+in an integer array.
+
+Program Logic:
+1) Take array size from user.
+2) Read all elements into the array.
+3) Use two nested loops:
+   - Compare each element with every other element.
+4) If same value is found at different index,
+   it is a duplicate.
+5) Print the duplicate element.
+
+Note:
+This method may print duplicates multiple times.
+It uses basic nested loop approach.
+*/
+
 import java.util.Scanner;
 
 public class DuplicatesInArray{
