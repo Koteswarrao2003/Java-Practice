@@ -1,3 +1,23 @@
+/*
+ENCAPSULATION IN JAVA
+
+Encapsulation means hiding the data
+and allowing access through methods.
+
+Program Logic:
+1) Variables (name, age, salary) are declared as private.
+2) Getter methods are used to read the values.
+3) Setter methods are used to update the values.
+4) Validation is added in setters:
+   - Age must be greater than 0.
+   - Salary cannot be negative.
+5) In main(), we create an object and
+   set values using setter methods.
+
+This protects the data and ensures
+controlled access to variables.
+*/
+
 class EncapsulationSub{
     private String name;
     private int age;
