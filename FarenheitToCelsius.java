@@ -1,3 +1,21 @@
+/*
+FAHRENHEIT TO CELSIUS CONVERSION
+
+This program converts temperature
+from Fahrenheit to Celsius.
+
+Formula:
+Celsius = (Fahrenheit − 32) × 5/9
+
+Program Logic:
+1) Take Fahrenheit value as input from user.
+2) Apply the conversion formula.
+3) Calculate the Celsius value.
+4) Print the result.
+
+Scanner is used to read input from the user.
+*/
+
 import java.util.Scanner;
 
 public class FarenheitToCelsius{
