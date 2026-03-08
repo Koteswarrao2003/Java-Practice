@@ -1,3 +1,20 @@
+/*
+GREATEST COMMON DIVISOR (GCD)
+
+GCD is the largest number that divides
+two numbers without leaving a remainder.
+
+Example:
+GCD of 12 and 18 → 6
+
+Program Logic:
+1) Take two numbers from the user.
+2) Find the smaller number between them.
+3) Use a loop from 1 to the smaller number.
+4) Check if both numbers are divisible by i.
+5) If yes, store i as GCD.
+6) The last stored value will be the final GCD.
+*/
 
 import java.util.Scanner;
 
