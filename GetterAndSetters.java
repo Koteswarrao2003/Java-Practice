@@ -1,3 +1,20 @@
+/*
+GETTERS AND SETTERS IN JAVA
+
+This program demonstrates how to use
+getter and setter methods in Java.
+
+Program Logic:
+1) Variables (name, age, salary) are declared as private.
+2) A constructor is used to initialize the values.
+3) Setter methods are used to update the values.
+4) Getter methods are used to retrieve the values.
+5) toString() method prints the object details in a readable format.
+
+This helps in data hiding and controlled
+access to class variables.
+*/
+
 class SubGetterAndSetter{
     private String name;
     private int age;
