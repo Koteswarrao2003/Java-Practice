@@ -1,3 +1,23 @@
+/*
+KTH LARGEST ELEMENT IN ARRAY
+
+This program finds the Kth largest element
+in an array.
+
+Program Logic:
+1) Take array size and elements from the user.
+2) Sort the array using Arrays.sort().
+3) Ask the user for the value of k.
+4) The Kth largest element is at index (size - k).
+5) Print the result.
+
+Example:
+Array → [3, 5, 1, 8, 2]
+Sorted → [1, 2, 3, 5, 8]
+
+If k = 2 → 2nd largest element is 5.
+*/
+
 import java.util.*;
 public class KthLargestElement {
     public static void main(String[] args) {
