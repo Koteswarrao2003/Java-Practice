@@ -1,3 +1,35 @@
+/*
+LITERALS IN JAVA
+
+Literals are fixed values assigned to variables in a program.
+
+This program demonstrates different types of literals:
+
+1) Integer Literals:
+   - Decimal → 100
+   - Binary → 0b1010
+   - Octal → 012
+   - Hexadecimal → 0xA
+
+2) Floating Point Literals:
+   - float → 10.5f
+   - double → 99.99
+
+3) Character Literal:
+   - char → 'J'
+
+4) String Literal:
+   - "Java"
+
+5) Boolean Literals:
+   - true and false
+
+6) Underscore Literal:
+   - Used to make large numbers more readable (1_00_000)
+
+The program prints all these literal values.
+*/
+
 public class Literals {
     public static void main(String[] args) {
 
