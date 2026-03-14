@@ -1,3 +1,25 @@
+/*
+MULTIPLE WAYS TO FETCH DATA FROM COLLECTION
+
+This program demonstrates different ways
+to retrieve elements from a List collection.
+
+Methods used:
+
+1) Ordinary for loop → Access elements using index.
+2) For-each loop → Simple way to traverse collection.
+3) Iterator → Used to iterate elements sequentially.
+4) ListIterator → Allows forward and backward traversal.
+5) Spliterator → Used for traversing and partitioning elements.
+6) Stream API → Modern way to process collections.
+7) Lambda Expression → Functional style iteration.
+8) Method Reference → Short form of lambda expression.
+9) Enumeration → Older way to traverse collection elements.
+
+This program helps to understand multiple
+approaches to access collection data in Java.
+*/
+
 import java.util.*;
 public class MultipleWaysToFetchCollectionData {
     public static void main(String[] args) {
