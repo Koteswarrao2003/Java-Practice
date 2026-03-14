@@ -1,3 +1,24 @@
+/*
+SCANNER CLASS METHODS IN JAVA
+
+This program demonstrates different
+methods of the Scanner class used
+to read input from the user.
+
+Methods used:
+1) nextByte()  → reads byte value
+2) nextShort() → reads short value
+3) nextInt()   → reads integer value
+4) nextLong()  → reads long value
+5) nextFloat() → reads float value
+6) nextDouble()→ reads double value
+7) next()      → reads a single word
+8) nextLine()  → reads a full line of text
+
+After reading all values,
+the program prints them on the screen.
+*/
+
 import java.util.*;
 public class MethodsOfScannerClass{
     public static void main(String[] args) {
