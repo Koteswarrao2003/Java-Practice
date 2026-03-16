@@ -1,3 +1,24 @@
+/*
+NTH LARGEST NUMBER IN ARRAY
+
+This program finds the Nth largest element
+in an array.
+
+Program Logic:
+1) Take the size of the array and elements from the user.
+2) Sort the array using nested loops.
+3) Ask the user which largest element is required.
+4) After sorting, the Nth largest element will be
+   at index (array length - N).
+5) Print the result.
+
+Example:
+Array → 5, 2, 9, 1
+Sorted → 1, 2, 5, 9
+
+If N = 2 → 2nd largest element is 5.
+*/
+
 import java.util.*;
 
 public class NthLargestNumber {
