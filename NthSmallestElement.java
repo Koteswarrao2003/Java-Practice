@@ -1,3 +1,24 @@
+/*
+NTH SMALLEST ELEMENT IN ARRAY
+
+This program finds the Nth smallest element
+in an array.
+
+Program Logic:
+1) Take array size and elements from the user.
+2) Sort the array using nested loops.
+3) Ask the user which smallest element is required.
+4) After sorting, the Nth smallest element will be
+   at index (N - 1).
+5) Print the result.
+
+Example:
+Array → 8, 3, 1, 6
+Sorted → 1, 3, 6, 8
+
+If N = 2 → 2nd smallest element is 3.
+*/
+
 import java.util.*;
 
 public class NthSmallestElement {
