@@ -1,3 +1,21 @@
+/*
+NUMBER PALINDROME PROGRAM
+
+A Palindrome number is a number that
+remains the same when reversed.
+
+Example:
+121 → Reverse is 121 → Palindrome
+
+Program Logic:
+1) Take a number from the user.
+2) Store the original number.
+3) Reverse the number using a loop.
+4) Compare the reversed number with the original.
+5) If both are equal → Palindrome
+   Otherwise → Not a Palindrome.
+*/
+
 import java.util.Scanner;
 
 public class NumberPalindrome{
