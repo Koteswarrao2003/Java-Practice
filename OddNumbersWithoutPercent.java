@@ -1,3 +1,19 @@
+/*
+PRINT ODD NUMBERS WITHOUT USING % OPERATOR
+
+This program prints odd numbers
+between two given numbers.
+
+Program Logic:
+1) Take starting and ending numbers from user.
+2) Use a loop from start to end.
+3) Check odd number using (i/2)*2 != i.
+4) If the condition is true, the number is odd.
+5) Print all odd numbers.
+
+This method finds odd numbers
+without using the modulus (%) operator.
+*/
 
 import java.util.Scanner;
 
