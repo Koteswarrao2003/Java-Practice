@@ -1,3 +1,23 @@
+/*
+PARSING IN JAVA
+
+Parsing means converting data from one type
+to another (usually from String to primitive types).
+
+This program demonstrates:
+1) Integer.parseInt() → converts String to int
+2) Double.parseDouble() → converts String to double
+3) Boolean.parseBoolean() → converts String to boolean
+
+Program Logic:
+1) Store values as Strings.
+2) Convert them into respective data types.
+3) Print the converted values.
+
+This is useful when reading input from files,
+user input, or APIs.
+*/
+
 public class Parsing {
     public static void main(String[] args) {
         String intVal="104";
