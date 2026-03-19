@@ -1,3 +1,22 @@
+/*
+PERFECT NUMBER PROGRAM
+
+A Perfect Number is a number where
+the sum of its factors (excluding itself)
+is equal to the number.
+
+Example:
+6 → 1 + 2 + 3 = 6 → Perfect Number
+
+Program Logic:
+1) Take a number from the user.
+2) Find all factors of the number (excluding itself).
+3) Add all the factors.
+4) Compare the sum with the original number.
+5) If equal → Perfect Number
+   Otherwise → Not a Perfect Number.
+*/
+
 import java.util.*;
 public class PerfectNumber{
     public static void main(String[] args) {
