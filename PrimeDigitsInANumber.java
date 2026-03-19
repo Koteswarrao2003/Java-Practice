@@ -1,3 +1,24 @@
+/*
+COUNT PRIME DIGITS IN A NUMBER
+
+This program counts how many digits
+in a number are prime digits.
+
+Prime digits: 2, 3, 5, 7
+
+Program Logic:
+1) Take a number from the user.
+2) Extract each digit using % operator.
+3) Check if the digit is prime.
+4) If prime → increase count.
+5) Repeat for all digits.
+6) Print the total number of prime digits.
+
+Example:
+Number → 2358
+Prime digits → 2, 3, 5 → Count = 3
+*/
+
 import java.util.*;
 public class PrimeDigitsInANumber {
     public static void main(String[] args) {
