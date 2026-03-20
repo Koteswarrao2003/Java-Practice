@@ -1,3 +1,25 @@
+/*
+PYRAMID PATTERN PROGRAM
+
+This program prints a pyramid shape
+using '*' symbols.
+
+Program Logic:
+1) Set number of rows (n).
+2) Use outer loop for rows.
+3) Print spaces (n - i) for alignment.
+4) Print stars (2*i - 1) in each row.
+5) Move to next line after each row.
+
+Example Output (n = 5):
+
+    *
+   ***
+  *****
+ *******
+*********
+*/
+
 public class Pyramid{
     public static void main(String[] args) {
         int n=5;
