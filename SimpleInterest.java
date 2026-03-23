@@ -1,3 +1,20 @@
+/*
+SIMPLE INTEREST PROGRAM
+
+This program calculates simple interest.
+
+Formula:
+Simple Interest = (Principal × Rate × Time) / 100
+
+Program Logic:
+1) Take principal amount, rate of interest, and time from user.
+2) Apply the simple interest formula.
+3) Calculate the result.
+4) Print the simple interest.
+
+Used in basic financial calculations.
+*/
+
 import java.util.*;
 public class SimpleInterest{
     public static void main(String[] args) {
