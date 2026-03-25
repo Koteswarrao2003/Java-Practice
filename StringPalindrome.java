@@ -1,3 +1,22 @@
+/*
+STRING PALINDROME PROGRAM
+
+A Palindrome string is a word that
+reads the same forward and backward.
+
+Example:
+"madam" → Palindrome
+
+Program Logic:
+1) Take a string from the user.
+2) Compare characters from start and end.
+3) Loop until half of the string.
+4) If any characters are not equal → Not palindrome.
+5) If all match → Palindrome.
+
+This checks the string without reversing it.
+*/
+
 import java.util.Scanner;
 
 public class StringPalindrome{
