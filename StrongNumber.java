@@ -1,3 +1,23 @@
+/*
+STRONG NUMBER PROGRAM
+
+A Strong Number is a number where
+the sum of factorials of its digits
+is equal to the number itself.
+
+Example:
+145 → 1! + 4! + 5! = 1 + 24 + 120 = 145
+
+Program Logic:
+1) Take a number from the user.
+2) Extract each digit using % operator.
+3) Find factorial of each digit.
+4) Add all factorial values.
+5) Compare the sum with the original number.
+6) If equal → Strong Number
+   Otherwise → Not a Strong Number.
+*/
+
 import java.util.Scanner;
 
 public class StrongNumber{
