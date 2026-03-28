@@ -1,3 +1,24 @@
+/*
+UNARY OPERATORS IN JAVA
+
+Unary operators work on a single operand.
+
+Operators used in this program:
+
+1) +  → Unary plus (returns value as it is)
+2) -  → Unary minus (changes sign)
+3) ++ → Increment operator
+   - Pre-increment (++a): increases value first
+   - Post-increment (a++): uses value, then increases
+4) -- → Decrement operator
+   - Pre-decrement (--b): decreases value first
+   - Post-decrement (b--): uses value, then decreases
+5) !  → Logical NOT (reverses boolean value)
+
+The program shows how each operator works
+with variables.
+*/
+
 public class UnaryOperators {
     public static void main(String[] args) {
 
