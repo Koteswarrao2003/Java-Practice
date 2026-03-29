@@ -1,3 +1,22 @@
+/*
+COUNT VOWELS IN A WORD
+
+This program counts the number of vowels
+in a given word.
+
+Program Logic:
+1) Take a word as input from the user.
+2) Convert the word to lowercase.
+3) Convert the string into a character array.
+4) Check each character:
+   - If it is a vowel (a, e, i, o, u)
+     then increase the count.
+5) Print the total number of vowels.
+
+Example:
+Input: "hello"
+Output: 2 vowels (e, o)
+*/
 
 import java.util.Scanner;
 
