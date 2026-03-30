@@ -1,3 +1,33 @@
+/*
+WORKING WITH ARRAYLIST AND LINKEDLIST
+
+This program demonstrates operations
+on ArrayList and LinkedList.
+
+Program Logic:
+1) Create an ArrayList and add elements.
+2) Create a LinkedList and add elements.
+3) Print both lists.
+
+Operations performed:
+
+4) Merge:
+   - Combine both lists using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Elements in ArrayList not in LinkedList → removeAll()
+   - Elements in LinkedList not in ArrayList → removeAll()
+
+7) Equality Check:
+   - Compare both lists using equals().
+
+This program shows how to work with
+different List implementations in Java.
+*/
+
 import java.util.*;
 public class WorkWithArrayListAndLinkedList{
     public static void main(String[] args) {
