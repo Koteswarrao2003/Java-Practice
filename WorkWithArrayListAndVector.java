@@ -1,3 +1,34 @@
+/*
+WORKING WITH ARRAYLIST AND VECTOR
+
+This program demonstrates operations
+on ArrayList and Vector.
+
+Program Logic:
+1) Create an ArrayList and add elements.
+2) Create a Vector and add elements.
+3) Print both collections.
+
+Operations performed:
+
+4) Merge:
+   - Combine both lists using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Elements in ArrayList not in Vector → removeAll()
+   - Elements in Vector not in ArrayList → removeAll()
+
+7) Equality Check:
+   - Compare both using equals().
+
+Note:
+Vector is synchronized (thread-safe),
+while ArrayList is not synchronized.
+*/
+
 import java.util.*;
 public class WorkWithArrayListAndVector{
     public static void main(String[] args) {
