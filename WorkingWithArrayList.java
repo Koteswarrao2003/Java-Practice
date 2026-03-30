@@ -1,3 +1,29 @@
+/*
+WORKING WITH ARRAYLIST
+
+This program demonstrates common operations
+on ArrayList in Java.
+
+Program Logic:
+
+1) Create an ArrayList and add elements.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Remove element → remove()
+4) Check element exists → contains()
+5) Get size of list → size()
+6) Add element at specific index → add(index, value)
+7) Fetch element → get(index)
+8) Replace element → set(index, value)
+9) Check if list is empty → isEmpty()
+10) Clear all elements → clear()
+
+This program shows how to perform
+basic operations on ArrayList.
+*/
+
 import java.util.*;
 public class WorkingWithArrayList {
     public static void main(String[] args) {
