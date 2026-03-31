@@ -1,3 +1,26 @@
+/*
+WORKING WITH HASHSET
+
+This program demonstrates basic operations
+on HashSet in Java.
+
+Program Logic:
+1) Create a HashSet and add elements.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Check element exists → contains()
+4) Get size → size()
+5) Remove element → remove()
+6) Clear all elements → clear()
+7) Check if empty → isEmpty()
+
+Note:
+HashSet does not allow duplicate elements
+and does not maintain insertion order.
+*/
+
 import java.util.*;
 public class WorkingWithHashSet {
     public static void main(String[] args) {
