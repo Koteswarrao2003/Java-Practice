@@ -1,3 +1,36 @@
+WORKING WITH ARRAYLIST AND STACK
+
+This program demonstrates operations
+on ArrayList and Stack.
+
+Program Logic:
+1) Create an ArrayList and add elements.
+2) Create a Stack and push elements.
+3) Print both collections.
+
+Operations performed:
+
+4) Merge:
+   - Combine both using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Elements in ArrayList not in Stack → removeAll()
+   - Elements in Stack not in ArrayList → removeAll()
+
+7) Equality Check:
+   - Compare both using equals().
+
+Stack Operations:
+8) peek() → View top element.
+9) pop() → Remove elements from top.
+10) isEmpty() → Check if stack is empty.
+
+Stack follows LIFO (Last In First Out).
+*/
+
 import java.util.*;
 public class WorkingWithArrayListAndStack {
     public static void main(String[] args) {
