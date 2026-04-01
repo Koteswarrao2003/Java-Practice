@@ -1,3 +1,32 @@
+/*
+WORKING WITH LINKEDHASHMAP
+
+This program demonstrates operations
+on LinkedHashMap in Java.
+
+Program Logic:
+1) Create a LinkedHashMap and add key-value pairs.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Access elements → get(key)
+4) Check key/value → containsKey(), containsValue()
+5) Get size → size()
+6) Remove element → remove(key)
+
+7) Iteration:
+   - Iterate keys using keySet()
+   - Iterate values using values()
+
+8) Clear all elements → clear()
+
+Note:
+- LinkedHashMap stores data as key-value pairs.
+- It maintains insertion order.
+- It allows one null key and multiple null values.
+*/
+
 import java.util.*;
 
 public class WorkingWithLinkedHashMap{
