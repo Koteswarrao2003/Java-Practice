@@ -1,3 +1,38 @@
+/*
+WORKING WITH HASHSET AND LINKEDHASHSET
+
+This program demonstrates operations
+on HashSet and LinkedHashSet.
+
+Program Logic:
+1) Create a HashSet and add elements.
+2) Create a LinkedHashSet and add elements.
+3) Print both sets.
+
+Operations performed:
+
+4) Merge:
+   - Combine both sets using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Elements in HashSet not in LinkedHashSet → removeAll()
+   - Elements in LinkedHashSet not in HashSet → removeAll()
+
+7) Equality Check:
+   - Compare both sets using equals().
+
+8) Size:
+   - Get number of elements using size().
+
+Note:
+- HashSet does not maintain order.
+- LinkedHashSet maintains insertion order.
+- Both do not allow duplicate elements.
+*/
+
 import java.util.*;
 public class WorkingWithHashSetAndLinkedHashSet {
     public static void main(String[] args) {
