@@ -1,4 +1,33 @@
-import java.util.*;
+
+
+/*
+WORKING WITH HASHTABLE
+
+This program demonstrates basic operations
+on Hashtable in Java.
+
+Program Logic:
+1) Create a Hashtable and add key-value pairs.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Access elements → get(key)
+4) Check key/value → containsKey(), containsValue()
+5) Get size → size()
+6) Remove element → remove(key)
+
+7) Iteration:
+   - Iterate keys using keySet()
+   - Iterate values using values()
+
+8) Clear all elements → clear()
+
+Note:
+- Hashtable stores data as key-value pairs.
+- It does not allow null key or null value.
+- It is synchronized (thread-safe).
+*/import java.util.*;
 public class WorkingWithHashTable {
     public static void main(String[] args) {
         Hashtable<String, Integer> hashtable = new Hashtable<>();
