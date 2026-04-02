@@ -1,3 +1,34 @@
+/*
+WORKING WITH LINKEDHASHSET
+
+This program demonstrates basic operations
+on LinkedHashSet in Java.
+
+Program Logic:
+1) Create a LinkedHashSet and add elements.
+2) Print elements using forEach().
+
+Features shown:
+
+3) Duplicate Handling:
+   - Duplicate elements are not allowed.
+
+4) Null Handling:
+   - Only one null value is allowed.
+
+Operations performed:
+
+5) Check element exists → contains()
+6) Get size → size()
+7) Check if empty → isEmpty()
+8) Remove element → remove()
+9) Clear all elements → clear()
+
+Note:
+- LinkedHashSet maintains insertion order.
+- It stores only unique elements.
+*/
+
 import java.util.*;
 
 public class WorkingWithLinkedHashSet{
