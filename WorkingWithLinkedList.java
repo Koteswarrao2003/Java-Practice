@@ -1,3 +1,35 @@
+/*
+WORKING WITH LINKEDLIST
+
+This program demonstrates various operations
+on LinkedList in Java.
+
+Program Logic:
+1) Create a LinkedList and add elements.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Add elements:
+   - add() / offer() → add element
+   - offerFirst() → add at beginning
+   - offerLast() → add at end
+
+4) Remove elements:
+   - remove() → remove specific element
+   - removeFirst() → remove first element
+   - removeLast() → remove last element
+
+5) Check element exists → contains()
+6) Get size → size()
+7) Clear all elements → clear()
+8) Check if empty → isEmpty()
+
+Note:
+- LinkedList allows dynamic size.
+- It is efficient for insertion and deletion.
+*/
+
 import java.util.*;
 public class WorkingWithLinkedList{
     public static void main(String[] args) {
