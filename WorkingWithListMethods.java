@@ -1,3 +1,23 @@
+/*
+WORKING WITH LIST METHODS
+
+This program demonstrates basic methods
+of List (ArrayList) in Java.
+
+Program Logic:
+1) Create a List and add elements.
+2) Print the list.
+
+Operations performed:
+
+3) get(index) → Fetch element at specific position.
+4) remove(value) → Remove an element from the list.
+5) Iteration → Use for-each loop to display elements.
+
+This program shows simple operations
+on List collections.
+*/
+
 import java.util.*;
 public class WorkingWithListMethods {
     public static void main(String[] args) {
