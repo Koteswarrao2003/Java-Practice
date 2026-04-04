@@ -1,3 +1,34 @@
+/*
+WORKING WITH TREESET
+
+This program demonstrates operations
+on TreeSet in Java.
+
+Program Logic:
+1) Create a TreeSet for strings.
+2) Add elements → automatically sorted.
+3) Create another TreeSet for integers.
+
+Operations performed:
+
+4) Union:
+   - Combine both sets using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Remove elements using removeAll().
+
+7) Equality Check:
+   - Compare sets using equals().
+
+Note:
+- TreeSet stores elements in sorted order.
+- It does not allow duplicate elements.
+- It does not allow null values.
+*/
+
 import java.util.*;
 public class WorkingWithTreeSet{
     public static void main(String[] args) {
