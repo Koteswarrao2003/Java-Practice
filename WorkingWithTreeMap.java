@@ -1,3 +1,32 @@
+/*
+WORKING WITH TREEMAP
+
+This program demonstrates basic operations
+on TreeMap in Java.
+
+Program Logic:
+1) Create a TreeMap and add key-value pairs.
+2) Print elements (automatically sorted by keys).
+
+Operations performed:
+
+3) Access elements → get(key)
+4) Check key/value → containsKey(), containsValue()
+5) Get size → size()
+6) Remove element → remove(key)
+
+7) Iteration:
+   - Iterate keys using keySet()
+   - Iterate values using values()
+
+8) Clear all elements → clear()
+
+Note:
+- TreeMap stores data in sorted order (based on keys).
+- It does not allow null keys.
+- It is not synchronized.
+*/
+
 import java.util.*;
 public class WorkingWithTreeMap{
     public static void main(String[] args) {
