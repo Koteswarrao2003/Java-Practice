@@ -1,3 +1,41 @@
+/*
+WORKING WITH SORTEDSET (TREESET)
+
+This program demonstrates operations
+on SortedSet using TreeSet in Java.
+
+Program Logic:
+1) Create a SortedSet (TreeSet) for strings.
+2) Add elements → automatically sorted.
+3) Create another SortedSet for integers.
+
+Operations performed:
+
+4) Union:
+   - Combine both sets using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Remove elements using removeAll().
+
+7) Equality Check:
+   - Compare sets using equals().
+
+SortedSet Methods:
+
+8) first() → Returns first (smallest) element.
+9) last() → Returns last (largest) element.
+10) headSet() → Elements less than a given value.
+11) tailSet() → Elements greater than or equal to a value.
+12) subSet() → Elements between two values.
+
+Note:
+- TreeSet stores elements in sorted order.
+- It does not allow duplicate elements.
+*/
+
 import java.util.*;
 
 public class WorkingWithSortedSet{
