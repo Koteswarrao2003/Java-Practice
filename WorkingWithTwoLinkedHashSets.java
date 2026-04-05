@@ -1,3 +1,36 @@
+/*
+WORKING WITH TWO LINKEDHASHSETS
+
+This program performs different operations
+between two LinkedHashSets.
+
+Program Logic:
+1) Create two sets (Set A and Set B).
+2) Add elements and print both sets.
+
+Operations performed:
+
+3) Union:
+   - Combine elements of both sets using addAll().
+
+4) Intersection:
+   - Find common elements using retainAll().
+
+5) Difference:
+   - A - B → elements in Set A not in Set B
+   - B - A → elements in Set B not in Set A
+
+6) Equality Check:
+   - Compare both sets using equals().
+
+7) Size:
+   - Get number of elements using size().
+
+Note:
+- LinkedHashSet maintains insertion order.
+- It does not allow duplicate elements.
+*/
+
 import java.util.*;
 public class WorkingWithTwoLinkedHashSets{
     public static void main(String[] args) {
