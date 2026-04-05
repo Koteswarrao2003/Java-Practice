@@ -1,3 +1,35 @@
+/*
+WORKING WITH TWO ARRAYLISTS
+
+This program performs different operations
+between two ArrayLists.
+
+Program Logic:
+1) Create two lists (List A and List B).
+2) Add elements and print both lists.
+
+Operations:
+
+3) Union:
+   - Combine both lists using addAll().
+
+4) Intersection:
+   - Find common elements using retainAll().
+
+5) Difference:
+   - A - B → elements in A not in B
+   - B - A → elements in B not in A
+
+6) Equality Check:
+   - Compare both lists using equals().
+
+7) Size:
+   - Find number of elements using size().
+
+This demonstrates set-like operations
+using List collections.
+*/
+
 import java.util.*;
 
 public class WorkingWithTwoArrayLists{
