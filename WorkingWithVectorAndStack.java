@@ -1,3 +1,37 @@
+/*
+WORKING WITH VECTOR AND STACK
+
+This program demonstrates operations
+on Vector and Stack collections.
+
+Program Logic:
+1) Create a Vector and add elements.
+2) Create a Stack and add elements.
+3) Print both collections.
+
+Operations performed:
+
+4) Merge:
+   - Combine both using addAll().
+
+5) Intersection:
+   - Find common elements using retainAll().
+
+6) Difference:
+   - Elements in Vector not in Stack → removeAll()
+   - Elements in Stack not in Vector → removeAll()
+
+7) Equality Check:
+   - Compare both using equals().
+
+8) Size:
+   - Get number of elements using size().
+
+Note:
+- Vector is synchronized and allows duplicates.
+- Stack follows LIFO (Last In First Out).
+*/
+
 import java.util.*;
 public class WorkingWithVectorAndStack{
     public static void main(String[] args) {
