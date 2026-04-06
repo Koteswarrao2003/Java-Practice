@@ -1,3 +1,32 @@
+/*
+WORKING WITH VECTOR
+
+This program demonstrates basic operations
+on Vector in Java.
+
+Program Logic:
+1) Create a Vector and add elements.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) Remove element → remove()
+4) Check if empty → isEmpty()
+5) Get size → size()
+
+6) Iteration:
+   - Use Iterator to traverse elements.
+
+7) Check element exists → contains()
+
+8) Clear all elements → clear()
+
+Note:
+- Vector is synchronized (thread-safe).
+- It maintains insertion order.
+- It allows duplicate elements.
+*/
+
 import java.util.*;
 public class WorkingWithVector{
     public static void main(String[] args) {
