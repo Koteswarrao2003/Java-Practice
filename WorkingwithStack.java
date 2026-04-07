@@ -1,3 +1,28 @@
+/*
+WORKING WITH STACK
+
+This program demonstrates basic operations
+on Stack in Java.
+
+Program Logic:
+1) Create a Stack and push elements.
+2) Print elements using forEach().
+
+Operations performed:
+
+3) push() → Add element to stack.
+4) pop() → Remove top element.
+5) peek() → View top element without removing.
+6) isEmpty() → Check if stack is empty.
+7) size() → Get number of elements.
+8) contains() → Check if element exists.
+9) clear() → Remove all elements.
+
+Note:
+- Stack follows LIFO (Last In First Out).
+- Last inserted element is removed first.
+*/
+
 import java.util.*;
 public class WorkingwithStack{
     public static void main(String []args){
