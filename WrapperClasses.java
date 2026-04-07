@@ -1,3 +1,29 @@
+/*
+WRAPPER CLASSES IN JAVA
+
+Wrapper classes are used to convert
+primitive data types into objects.
+
+Examples:
+byte → Byte
+short → Short
+int → Integer
+long → Long
+float → Float
+double → Double
+char → Character
+boolean → Boolean
+
+Program Logic:
+1) Declare wrapper class variables.
+2) Assign values (auto-boxing).
+3) Print all values.
+
+Note:
+- Wrapper classes allow primitives to be used as objects.
+- Useful in collections (like ArrayList, HashMap).
+*/
+
 public class WrapperClasses{
     public static void main(String[] args) {
         Byte b=12;
